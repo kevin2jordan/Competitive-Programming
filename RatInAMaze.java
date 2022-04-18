@@ -1,33 +1,27 @@
 public class RatInAMaze {
 
-    private static void printSolution(int[][] sol) {
-        int n = sol.length;
-        for (int[] ints : sol) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(ints[j] + " ");
-            }
-            System.out.println();
-        }
+    private static boolean isValid(int[][] maze, int x, int y, int[][] sol) {
+        int n = maze.length;
+        int m = maze[0].length;
+
+        return x>=0 && x<n && y>=0 && y<m && maze[x][y] == 1 && sol[x][y] == 0;
     }
 
-    private static boolean  isValid(int[][] maze, int x, int y, int[][] sol) {
+    private static boolean solveMaze(int[][] maze, int x, int y, int[][] sol) {
         int n = maze.length;
+        int m = maze[0].length;
 
-        return x>=0 && x<n && y>=0 && y<n && maze[x][y]==1 && sol[x][y] == 0;
-    }
-
-    private static boolean solveMazeUtil(int[][] maze, int[][] sol, int x, int y) {
-        int n = maze.length;
-        if(x==n-1 && y==n-1){
+        if(x == n-1 && y==m-1) {
             sol[x][y] = 1;
             return true;
         }
         int[] row = {1,0};
         int[] col = {0,1};
-        if(isValid(maze,x,y,sol)) {
+
+        if(isValid(maze, x, y, sol)) {
             sol[x][y] = 1;
-            for(int i=0;i<row.length;i++) {
-                if(solveMazeUtil(maze, sol, x+row[i],y+col[i])){
+            for(int k=0;k<row.length;k++) {
+                if(solveMaze(maze, x+row[k], y+col[k], sol)) {
                     return true;
                 }
             }
@@ -36,14 +30,27 @@ public class RatInAMaze {
         return false;
     }
 
-    private static void solveRatMazePuzzle(int[][] maze) {
-        int n = maze.length;
-        int[][] sol = new int[n][n];
+    private static void printSolution(int[][] sol) {
+        int n = sol.length;
+        int m = sol[0].length;
 
-        if(!solveMazeUtil(maze, sol, 0, 0)){
-            System.out.print("Solution doesn't exist");
-        } else {
+        for(int[] arr : sol) {
+            for(int ele : arr) {
+                System.out.print(ele + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    private static void solve(int[][] maze) {
+        int n = maze.length;
+        int m = maze[0].length;
+
+        int[][] sol = new int[n][m];
+        if(solveMaze(maze, 0, 0, sol)) {
             printSolution(sol);
+        } else {
+            System.out.println("Solution doesn't exist");
         }
     }
 
@@ -52,7 +59,6 @@ public class RatInAMaze {
                 { 1, 1, 0, 1 },
                 { 0, 1, 0, 0 },
                 { 1, 1, 1, 1 } };
-
-        solveRatMazePuzzle(maze);
+        solve(maze);
     }
 }
