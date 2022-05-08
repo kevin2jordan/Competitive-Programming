@@ -1,0 +1,103 @@
+package Blind75.Graph;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
+public class GraphMatrix {
+    static class Pair {
+        int x, y;
+        Pair(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+    }
+
+    private static boolean isValid(int x, int y, boolean[][] visited) {
+        int n = visited.length;
+        int m = visited[0].length;
+
+        return x>=0 && x<n && y>=0 && y<m && !visited[x][y];
+    }
+
+    private static void dfsUtil(int x, int y, int[][] grid, boolean[][] visited) {
+        Stack<Pair> stack = new Stack<>();
+        stack.add(new Pair(x,y));
+        visited[x][y] = true;
+
+        int[] row = {-1,1,0,0};
+        int[] col = {0,0,-1,1};
+
+        while(!stack.isEmpty()) {
+            Pair temp = stack.pop();
+            System.out.print(grid[temp.x][temp.y] + " ");
+            for(int k=0;k<row.length;k++) {
+                if(isValid(temp.x+row[k], temp.y+col[k], visited)) {
+                    visited[temp.x+row[k]][temp.y+col[k]] = true;
+                    stack.add(new Pair(temp.x+row[k], temp.y+col[k]));
+                }
+            }
+        }
+    }
+
+    private static void dfs(int[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+
+        boolean[][] visited = new boolean[n][m];
+
+       // dfsUtil(0,0,grid, visited);
+        dfsRecr(0,0, visited, grid);
+    }
+
+
+    private static void dfsRecr(int x, int y, boolean visited[][], int grid[][]) {
+        visited[x][y] = true;
+        System.out.print(grid[x][y] + " ");
+        int[] row = {-1,1,0,0};
+        int[] col = {0,0,-1,1};
+
+        for(int k=0;k<row.length;k++) {
+            if(isValid(x+row[k], y+col[k], visited)) {
+                dfsRecr(x+row[k], y+col[k], visited, grid);
+            }
+        }
+}
+    private static void bfs(int[][] grid, int x, int y) {
+        int n = grid.length;
+        int m = grid[0].length;
+
+        boolean[][] visited = new boolean[n][m];
+        visited[x][y] = true;
+
+        Queue<Pair> queue = new LinkedList<>();
+        queue.add(new Pair(x,y));
+
+        int[] row = {-1,1,0,0};
+        int[] col = {0,0,1,-1};
+
+        while(!queue.isEmpty()) {
+            Pair temp = queue.poll();
+            System.out.print(grid[temp.x][temp.y] + " ");
+
+            for(int k=0;k<row.length;k++) {
+                if(isValid(temp.x+row[k], temp.y+col[k], visited)) {
+                    visited[temp.x+row[k]][temp.y+col[k]] = true;
+                    queue.add(new Pair(temp.x+row[k], temp.y+col[k]));
+                }
+            }
+        }
+
+    }
+
+    public static void main(String[] args) {
+        int[][] grid = { { -1, 2, 3 },
+                { 0, 9, 8 },
+                { 1, 0, 1 }
+            };
+
+        dfs(grid);
+        System.out.println();
+        bfs(grid,0,0);
+    }
+}
