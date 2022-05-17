@@ -1,0 +1,88 @@
+package Blind75.Graph;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Kruskal {
+    static class Edge {
+        int src;
+        int dest;
+        int wt;
+
+        Edge(int src, int dest, int wt) {
+            this.src = src;
+            this.dest = dest;
+            this.wt = wt;
+        }
+    }
+
+    public static void main(String args[]) {
+        List<Edge> graph = new ArrayList<>();
+        graph.add(new Edge(0,1,10));
+        graph.add(new Edge(0,2,6));
+        graph.add(new Edge(0,3,5));
+        graph.add(new Edge(1,3,15));
+        graph.add(new Edge(2,3,4));
+
+        kruskalMST(graph,4,5);
+    }
+
+    private static void kruskalMST(List<Edge> graph, int V, int E) {
+        graph.sort((x, y) -> x.wt - y.wt);
+        List<Edge> mstSet = new ArrayList<>();
+
+        UnionFind uf = new UnionFind(5);
+        int j=0;
+        while(j<E) {
+            int x = uf.find(graph.get(j).src);
+            int y = uf.find(graph.get(j).dest);
+            if(x == y) {
+                j++;
+                continue;
+            }
+            uf.union(x,y);
+            mstSet.add(graph.get(j));
+        }
+
+        for(Edge e : mstSet) {
+            System.out.println(e.src + "  " + e.dest);
+        }
+    }
+}
+
+class UnionFind {
+    int parents[];
+    int rank[];
+    int V;
+    UnionFind(int v) {
+        this.V = v;
+        parents = new int[V];
+        rank = new int[V];
+
+        for(int i=0;i<V;i++) {
+            parents[i] = i;
+            rank[i] = 1;
+        }
+    }
+
+    void union(int x, int y) {
+        int parentX = find(x);
+        int parentY = find(y);
+        if(parentX != parentY) {
+            if(rank[parentX] < rank[parentY]) {
+                parents[parentX] = parents[parentY];
+                rank[parentX] += rank[parentY];
+            } else {
+                parents[parentY] = parents[parentX];
+                rank[parentY] += rank[parentX];
+            }
+        }
+    }
+
+    int find(int x) {
+        if(parents[x] != x) {
+            parents[x] = find(parents[x]);
+        }
+        return parents[x];
+    }
+}
