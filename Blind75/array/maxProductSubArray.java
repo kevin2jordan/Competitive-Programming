@@ -4,7 +4,7 @@ public class maxProductSubArray {
 
     /*
         Time: O(n)
-        Space: O(n)
+        Space: O(1)
      */
     private static int calculateMaxProdSubArray(int[] arr) {
         int n = arr.length;
