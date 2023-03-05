@@ -24,7 +24,7 @@ class  UnionFind {
                 rank[parentX] += rank[parentY];
             } else {
                 parents[parentY] = parentX;
-                rank[parentY] += parentX;
+                rank[parentY] += rank[parentX];
             }
             
         }
