@@ -132,11 +132,11 @@ public class UndirectedGraphCycle {
 
 
     public static void main(String[] args) {
-        UndirectedGraphCycle graph = new UndirectedGraphCycle(5);
+        UndirectedGraphCycle graph = new UndirectedGraphCycle(2);
         graph.addEdge(0,1);
-        graph.addEdge(0,2);
-        graph.addEdge(2,1);
-        graph.addEdge(2,3);
+//        graph.addEdge(0,2);
+//        graph.addEdge(2,1);
+//        graph.addEdge(2,3);
       //  graph.addEdge(3,4);
 
         graph.bfs();

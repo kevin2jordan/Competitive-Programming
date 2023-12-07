@@ -1,4 +1,4 @@
-package Blind75.DP;
+package Blind75.dp;
 
 public class LongestCommonSubstring {
 
@@ -43,8 +43,8 @@ public class LongestCommonSubstring {
     }
 
     public static void main(String[] args) {
-        String str1 = "zxabcdezy";
-        String str2 = "yzabcdezx";
+        String str1 = "abcd";
+        String str2 = "abcz";
         int n = str1.length();
         int m = str2.length();
         System.out.println(getLCSRecr(str1, str2, n, m, 0));

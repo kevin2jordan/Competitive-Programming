@@ -2,6 +2,7 @@ package Blind75.DP;
 
 public class WaysToExchangeCoin {
 
+    static int[][] dp;
     private static int getWaysToExchangeCoinRecr(int[] coins, int n, int target) {
         if(target == 0) {
             return 1;
@@ -14,7 +15,11 @@ public class WaysToExchangeCoin {
             return 0;
         }
 
-        return getWaysToExchangeCoinRecr(coins, n-1, target) +
+        if(dp[n][target] != 0) {
+            System.out.println("Coming inside memoized");
+            return dp[n][target];
+        }
+        return dp[n][target] = getWaysToExchangeCoinRecr(coins, n-1, target) +
                 getWaysToExchangeCoinRecr(coins, n, target-coins[n-1]);
     }
 
@@ -31,9 +36,10 @@ public class WaysToExchangeCoin {
     }
 
     public static void main(String[] args) {
-        int[] coins = {2,3,6,7};
-        int target = 7;
+        int[] coins = {1,2,3};
+        int target = 5;
 
+        dp = new int[coins.length+1][target+1];
         System.out.println(getWaysToExchangeCoinRecr(coins, coins.length, target));
         System.out.println(getWaysToExchangeCoin(coins, target));
     }

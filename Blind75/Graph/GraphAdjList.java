@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
+
 public class GraphAdjList {
     private List<Integer> adjList[];
     private int V;
@@ -23,9 +24,14 @@ public class GraphAdjList {
       //  adjList[v].add(u);
     }
 
-    public void dfs(int src) {
+    public void dfs() {
         boolean[] visited = new boolean[V];
-        dfsUtil(src, visited);
+        for(int i=0;i<V;i++) {
+            if(!visited[i]) {
+                dfsUtil(i, visited);
+            }
+        }
+
     }
 
     private void dfsUtil(int src, boolean[] visited) {
@@ -87,7 +93,7 @@ public class GraphAdjList {
         graph.addEdge(3, 3);
 
         System.out.println("DFS is ");
-        graph.dfs(0);
+        graph.dfs();
         System.out.println("\nIterative DFS is ");
         graph.dfsIterative(0);
         System.out.println();

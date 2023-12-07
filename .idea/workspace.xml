@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82b9bdc7-c0f4-4831-8b3d-b2881a29ce8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Competitive-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data (D) - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atoi.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinomailCoefficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/BinomailCoefficient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/Graph/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/Graph/GraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/Graph/GraphListRepresentation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/Graph/UndirectedGraphCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/Graph/UndirectedGraphCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/array/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/array/maxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/maxProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/disjointset/UnionFind" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/disjointset/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/dp/CombinationSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/CombinationSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/dp/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/dp/WaysToExchangeCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/WaysToExchangeCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/heap/mergeKArrays" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/heap/mergeKArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoinExchangeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/CoinExchangeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kadane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/KnightTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LCSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LCSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/MSIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinimumDeletionPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/MinimumDeletionPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/NQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimalBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/OptimalBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Important/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatInAMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/RatInAMaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RottonOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/RottenOranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallestSubstringHavingAllCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/SmallestWindowContainingOtherString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmallestWindowContainingAllCharacterOfAnotherString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/SubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopViewOfTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/WordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addGreaterValueToEveryNode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_bfs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_dfs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_dijasktra.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_flyod.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_represent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knapSack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/largestRegionMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximumLevelSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximumWidthOfTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumCoinChange.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumDenomination.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/minimumDenomination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumJumpToReachEnd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peakElement.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/railwayPlatformm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rodcutting.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suareRootFloor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsetSum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumTreeCheck.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tilingProblem.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GeVOiRFZ39nxDNMYYpVk58lr8I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Competitive-Programming",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Competitive-Programming/Important" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NQueen">
+    <configuration name="DijasktraAdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Blind75.Graph.DijasktraAdjList" />
+      <module name="Competitive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Blind75.Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Important.KnightTour" />
+      <module name="Competitive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.Important.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important.NQueen" />
+      <module name="Competitive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Important.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Important.RatInAMaze" />
+      <module name="Competitive-Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Important.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Competitive-Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NQueen" />
+        <item itemvalue="Application.KnightTour" />
+        <item itemvalue="Application.RatInAMaze" />
+        <item itemvalue="Application.DijasktraAdjList" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82b9bdc7-c0f4-4831-8b3d-b2881a29ce8c" name="Changes" comment="" />
+      <created>1666749005419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666749005419</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

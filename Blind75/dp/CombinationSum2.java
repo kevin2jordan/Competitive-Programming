@@ -60,8 +60,8 @@ public class CombinationSum2 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {10,1,2,7,6,1,5};
-        int target = 8;
+        int[] arr = {1,2,3};
+        int target = 5;
         Arrays.sort(arr);
 
         List<List<Integer>> result = getAllCombinationSum(arr, target);
