@@ -2,71 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b9bdc7-c0f4-4831-8b3d-b2881a29ce8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/Competitive-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]/Data (D) - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]/mergeKArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]1/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]1/Data (D) - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]1/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]1/mergeKArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-12-2023_17_50_[Changes]1/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data (D) - Shortcut.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atoi.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinomailCoefficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/BinomailCoefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blind75/extra/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blind75/extra/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blind75/extra/TrieRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Competitive-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/Competitive-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/BellmanFordMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/CycleCheckDirectedGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/Dijasktra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/DijasktraAdjList$Edge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/DijasktraAdjList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/DijasktraAlgoWithAdjacencyList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/DijasktraAlgorithmWithMatrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/FlyodWarshal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/FlyodWarshal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/GraphAdjList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/GraphMatrix$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/GraphMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/GraphMatrixRepresentation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/KruskalAlgorithm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/PrimsAdjList$Edge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/PrimsAdjList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/PrimsAlgorithmWithAdjacencyList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/PrimsAlgorithmWithMatrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/PrimsMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/UndirectedGraphCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/prims$Edge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/Graph/prims.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/ProductArrayExceptItself.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/StockBuySell1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/TwoSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/maxSubarray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/array/minimumInSortedRotatedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/binary/CountingBits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/binary/MissingNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/binary/NumberOf1Bits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/binary/ReverseBits.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/binary/SumOfTwoIntegers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/disjointset/UnionFind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/BinomialCoefficient" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/ClimbStairs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/CoinChangeMinimum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/CombinationSum2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/DecodeWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/HouseRobber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/JumpGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/LongestCommonSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/LongestCommonSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/LongestIncreasingSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/OptimalBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/SubsetSum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/WaysToExchangeCoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/dp/WordBreak.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/heap/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/heap/mergeKArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Blind75/sorting/mergesort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Competitive-Programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Data (D) - Shortcut.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/NQueen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/OptimalBST.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/RatInAMaze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/SmallestWindowContainingOtherString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/SubsetSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Important/minimumDenomination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Blind75/array/ContainerWithMostWater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Blind75/array/ContainsDuplicate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Blind75/array/maxProductSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/BinomailCoefficient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/CoinExchangeWays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/KnightTour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/LCSubsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/LCSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/LIS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/LPS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/MSIS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/MinimumDeletionPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/RottenOranges$pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/RottenOranges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/UniquePaths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Competitive-Programming/dp/Important/WordBreak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atoi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/Atoi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinomailCoefficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/BinomailCoefficient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/Graph/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/Graph/GraphAdjList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind75/Graph/GraphListRepresentation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/Graph/GraphListRepresentation" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/Graph/GraphListRepresentation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/Graph/UndirectedGraphCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/Graph/UndirectedGraphCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/ContainerWithMostWater" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/array/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/ContainsDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/array/maxProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/array/maxProductSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind75/disjointset/UnionFind" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/disjointset/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/disjointset/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/disjointset/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/dp/CombinationSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/CombinationSum2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/dp/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blind75/dp/WaysToExchangeCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/dp/WaysToExchangeCoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blind75/heap/mergeKArrays" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/heap/mergeKArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoinExchangeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/CoinExchangeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kadane.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/KnightTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LCSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LCSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/LPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MSIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/MSIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MinimumDeletionPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/MinimumDeletionPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/NQueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OptimalBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/OptimalBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Important/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatInAMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/RatInAMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RottonOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/RottenOranges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallestSubstringHavingAllCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/SmallestWindowContainingOtherString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmallestWindowContainingAllCharacterOfAnotherString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/SubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopViewOfTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/WordBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addGreaterValueToEveryNode.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarySearch.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_bfs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_dfs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_dijasktra.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_flyod.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_represent.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knapSack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/largestRegionMatrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximumLevelSum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximumWidthOfTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergeSort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimumCoinChange.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimumDenomination.java" beforeDir="false" afterPath="$PROJECT_DIR$/Important/minimumDenomination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minimumJumpToReachEnd.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peakElement.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickSort.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/railwayPlatformm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rodcutting.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suareRootFloor.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subsetSum.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sumTreeCheck.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tilingProblem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blind75/heap/mergeKArrays" beforeDir="false" afterPath="$PROJECT_DIR$/Blind75/heap/mergeKArrays" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoinExchangeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/CoinExchangeWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/DFS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kadane.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/Kadane.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/KnightTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/LCS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/LCSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/LCSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/LPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MSIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/MSIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinimumDeletionPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/MinimumDeletionPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NQueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/NQueen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OptimalBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/OptimalBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatInAMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatInAMaze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopViewOfTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TopViewOfTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addGreaterValueToEveryNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/addGreaterValueToEveryNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binarySearch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/binarySearch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_bfs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/graph_bfs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_dfs.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/graph_dfs.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_dijasktra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/graph_dijasktra.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_flyod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/graph_flyod.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph_represent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/graph_represent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knapSack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/knapSack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/largestRegionMatrix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/largestRegionMatrix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximumLevelSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/maximumLevelSum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximumWidthOfTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/maximumWidthOfTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/mergeSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumCoinChange.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/minimumCoinChange.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumDenomination.java" beforeDir="false" afterPath="$PROJECT_DIR$/old/minimumDenomination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minimumJumpToReachEnd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/minimumJumpToReachEnd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peakElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/peakElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/quickSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/railwayPlatformm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/old/railwayPlatformm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rodcutting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/rodcutting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suareRootFloor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/suareRootFloor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsetSum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/subsetSum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumTreeCheck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sumTreeCheck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tilingProblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tilingProblem.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +193,8 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Competitive-Programming",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/CodingPractise/Competitive-Programming",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
